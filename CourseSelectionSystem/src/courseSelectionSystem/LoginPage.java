@@ -46,26 +46,26 @@ class LoginPage extends JFrame {
 		
 		JLabel accountLabel = new JLabel(LanguageManager.ACCOUNT);
 		accountLabel.setFont(LanguageManager.getFont(Font.PLAIN, 20));
-		accountLabel.setBounds(206, 120, 48, 24);
+		accountLabel.setBounds(206, 120, 88, 24);
 		contentPane.add(accountLabel);
 		
 		accountField = new JTextField();
-		accountField.setBounds(257, 120, 132, 24);
+		accountField.setBounds(297, 120, 92, 24);
 		contentPane.add(accountField);
 		accountField.setColumns(10);
 		
 		JLabel titleLabel = new JLabel(LanguageManager.LOGINTOSYSTEM);
 		titleLabel.setFont(LanguageManager.getFont(Font.PLAIN, 20));
-		titleLabel.setBounds(235, 89, 120, 23);
+		titleLabel.setBounds(195, 89, 200, 23);
 		contentPane.add(titleLabel);
 		
 		JLabel passwordLabel = new JLabel(LanguageManager.PASSWORD);
 		passwordLabel.setFont(LanguageManager.getFont(Font.PLAIN, 20));
-		passwordLabel.setBounds(206, 157, 48, 23);
+		passwordLabel.setBounds(206, 157, 88, 23);
 		contentPane.add(passwordLabel);
 		
 		passwordField = new JPasswordField();
-		passwordField.setBounds(257, 158, 132, 24);
+		passwordField.setBounds(297, 158, 92, 24);
 		contentPane.add(passwordField);
 		
 		JLabel informationLabel = new JLabel("");
@@ -111,7 +111,7 @@ class LoginPage extends JFrame {
 		newsLabel.setIcon(new ImageIcon(news));
 		contentPane.add(newsLabel);
 		
-		JLabel newsInfoLabel = new JLabel("\u6211\u6821\u5076\u50CF\u5728\u5168\u56FD\u5927\u4F1A");
+		JLabel newsInfoLabel = new JLabel("Our school idols");
 		newsInfoLabel.setFont(LanguageManager.getFont(Font.PLAIN, 16));
 		newsInfoLabel.setBounds(14, 405, 180, 34);
 		contentPane.add(newsInfoLabel);
