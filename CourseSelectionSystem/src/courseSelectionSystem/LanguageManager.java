@@ -3,7 +3,7 @@ package courseSelectionSystem;
 import java.awt.Font;
 
 /**
- *	This is the Chinese language pack of the software.
+ *	This is the English language pack of the software.
  */
 class LanguageManager {
 	public static final String[] DAYS = {"SUN","MON","TUE","WED","THU","FRI","SAT"};
